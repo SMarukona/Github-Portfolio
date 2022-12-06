@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="Assets/CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="main-navbar">
+
+                <img class="main-logo" src="Assets/Img/Sanjeewa - White.png">
+                <a href="javascript:void(0);" onclick="onHamburger()" class = "hamburger"><i id = "xmark"class="fa fa-bars fa-2xl"></i></a>
+                <ul class="main-nav-item" id="my-main-nav">
+                    <li><a href="#AboutME">About Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#ContactMe"><span>Contact Me</span></a></li>  
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+            <div class="main-hero">
+                <img class="profile-pic" src="Assets/Img/profile-pic.png">
+                <h3>I’m Web Designer,Developer</h3>
+                <p>I have a real passion to design and develop modern web apps</p>
+                <p class="arrow-down"><a><i class="fa-solid fa-arrow-down fa-2xl"></i></a></p>
+                
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"></div>
+
+    <!-- About Me section-->
+    <section id = "AboutME" class="about-me">
+        <div class="container">
+            <h3>Hello! <br>I’m Sanjeewa Marukona</h3>
+            <p>I like it if you called me Sanjeewa, currently working as a full-time freelancer. I love to research, design, building new things using the latest web technologies. My strengths are accepting new challenges, learning new things, solving problems, the ability to adapt to new environments, and working as a team member. When I have free time, I like to watch movies, travel, and do nature photography. Also, I have to care of my Anji🐶 and Laila🐱 daily basis.</p>
+            <hr class="seperator">
+        </div>
+       
+    </section>
+    <div class="clearfix"></div>
+
+    <!-- Skills section-->
+    <section id="Skills" class="skills">
+        <div class="container">
+        <div class="row-skills">
+            <div class="column-skills col-skill-1">
+                <img src="Assets/Img/web-design - primary.png">
+                <h6>Web Design</h6>
+                <p>I will design stunning websites, web apps from scratch using Figma, Adobe Illustrator or Photoshop.</p>
+                <hr>
+                <p class="p-skills-head">Tools and Technologies </p>
+                <p>Figma, Adobe Photoshop, Adobe Illustrator</p>
+            </div>
+            <div class="column-skills col-skill-2">
+                <img src="Assets/Img/Development - primary.png">
+                <h6>FrontEnd Development</h6>
+                <p>I will build FrontEnd web apps from design to working application with clean code with mobile-first approch.</p>
+                <hr>
+                <p class="p-skills-head">Tools and Technologies </p>
+                <p>HTMl5, CSS3, Javascript, Bootstrap, ReackJs, jQuery</p>
+            </div>
+            <div class="column-skills col-skill-3">
+                <img src="Assets/Img/Wordpress - primary.png">
+                <h6>WorsPress Development</h6>
+                <p>I will build custom WordPress websites from scratch, develop custom WordPress themes.</p>
+                <hr>
+                <p class="p-skills-head">Tools and Technologies </p>
+                <p>WordPress, Rest API</p>
+            </div>
+        </div>
+        <hr class="seperator">
+        </div>
+
+    </section>
+    <div class="clearfix"></div>
+
+
+    <section id ="Projects" class="projects">
+        <div class="container">
+            <h3>Projects and Case Studies</h3>
+            <table>
+                <tr>
+                    <td>Calc App design</td>
+                    <td>Calc App</td>
+                    <td>Todo List</td>
+                </tr>
+                <tr>
+                    <td>React CMS</td>
+                    <td>Blogger Pro</td>
+                    <td>News Pro</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    <div class="clearfix"></div>
+
+    <section id = "ContactMe" class="sec-contact-me">
+        <div class="container">
+            <h5>Interested to hire me for your next awesome web app to built</h5>
+            <p class="p-contactme"><a href="#">Contact Me</a></p>
+        </div>
+
+    </section>
+    <div class="clearfix"></div>
+
+    <footer>
+        <div class="container">
+           <div class="footer-nav">
+            <img class="footer-logo" src="Assets/Img/Sanjeewa - White.png">
+            <h5 class="footer-h5">Connect with me on social media</h5>
+            <ul class="social-icon">
+             <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+           </div>
+           <div class="copy-footer">
+            <p>&copy2022 Sanjeewa Marukona</p>
+           </div>
+        </div>
+        
+        
+    </footer>
+    <script src="https://kit.fontawesome.com/835e102e1a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
